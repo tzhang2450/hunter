@@ -1,0 +1,148 @@
+
+/*--main--*/
+.warning {
+	margin-top: 20px;
+}
+.warning .alert {
+	padding: 5px;
+	margin-bottom: 0;
+}
+.warning span {
+	font-size: 20px;
+	padding-right: 25px;
+}
+
+/* main > base info */
+@media screen and (max-width: 500px) {
+	.user-info .avatar {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.user-info .info {
+		text-align: center;
+	}
+	.validate-operator {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.user-info .avatar {
+		text-align: left;
+	}
+	.validate-operator {
+		text-align: right;
+	}
+}
+.base-info {
+}
+.user-info .avatar img {
+	width: 90px;
+    height: 90px;
+    border-radius: 45px;
+}
+.user-info .info div {
+	height: 30px;
+	line-height: 30px;
+}
+.user-info .info div span.validate {
+	color: #999;
+	font-size: 13px;
+}
+.user-info .info i {
+	color: #999;
+	margin-right: 5px;
+}
+.user-info .info .email-info {
+}
+.validate-operator .tip {
+	margin: 0;
+}
+.validate-operator .tip .alert-dismissible, .view-resume .right .tip .alert-dismissible {
+	padding: 5px;
+}
+
+/* main > 4 maindata */
+@media screen and (max-width: 500px) {
+	.view-button {
+		text-align: left;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.view-button {
+		text-align: right;
+	}
+}
+.hunt-manage {
+}
+.hunt-manage .hunter-content {
+	margin-top: 40px;
+}
+.hunt-manage .num a {
+	font-size: 28px;
+	font-weight: normal;
+	padding: 10px;
+}
+
+/* main > my resume */
+.view-resume {
+}
+.view-resume .resume-status {
+	margin-top: 20px;
+	margin-bottom: 10px;
+}
+.resume-detail {
+	line-height: 30px;
+	margin-bottom: 0px;
+}
+.resume-detail div span {
+	font-size: 14px;
+}
+.resume-status span {
+	color: #999;
+}
+.view-resume .right .view-button {
+	margin-top: 20px;
+}
+.view-resume .right .view-button .edit {
+	margin-right: 10px;
+}
+.view-resume .right .tip {
+	margin-top: 20px;
+}
+.update-resume {
+	margin-top: -30px;
+    background-color: #f4faff;
+    border-top: solid 1px #e0ebf3;
+    border-bottom: solid 1px #e0ebf3;
+}
+.update-resume .common-tip {
+	font-weight: bold;
+	color: #2479cf;
+}
+.update-resume .detail-tip {
+	color: #999;
+}
+.update-resume .operator {
+	margin-top: 10px;
+}
+.update-resume .operator a i {
+	font-size: 13px;
+	vertical-align: text-top;
+	padding-right: 5px;
+}
+
+
+/* main > job list */
+.recommend-resume {
+
+}
+.recommend-resume .table {
+	padding-bottom: 20px;
+}
+
+
+
+
+
+
+

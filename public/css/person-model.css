@@ -1,0 +1,45 @@
+
+.form-horizontal {
+	padding-top: 25px;
+	padding-bottom: 50px;
+}
+
+
+.authentication {
+	padding: 30px;
+	background-color: #fff;
+}
+.authentication .control-group {
+	margin-bottom: 25px;
+}
+.authentication .control-group label {
+	font-size: 14px;
+	font-weight: normal;
+}
+.authentication .control-group label span {
+	color: red;
+	padding-right: 5px;
+	font-size: 18px;
+	vertical-align: text-top;
+}
+.authentication .control-group .control-label {
+	padding-right: 30px;
+}
+.authentication .control-group .controls {
+	display: inline-block;
+}
+.authentication .control-group .controls a {
+	color: #666;
+	background-color: #fff;
+	display: inline-block;
+}
+.authentication .control-group .controls a:hover {
+	color: #333;
+	background-color: #eee;
+}
+.authentication .control-group .controls i {
+	padding-right: 5px;
+    color: #5cb85c;
+}
+.btn-save { padding: 10px 40px; }
+

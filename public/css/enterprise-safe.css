@@ -1,0 +1,89 @@
+/*-- safety center --*/
+@media screen and (max-width: 500px) {
+	.safetycenter {
+		margin: 0 20px;
+	}
+	.safetycenter .safety-btn a {
+		padding-left: 15px;
+		padding-right: 15px;
+	}
+	.safetycenter .safety-btn {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.safetycenter {
+		margin: 0 30px;
+	}
+	.safetycenter .safety-btn a {
+		padding-left: 30px;
+		padding-right: 30px;
+	}
+	.safetycenter .safety-btn {
+		text-align: right;
+	}
+}
+
+
+.safetycenter {
+	border-bottom: solid 1px #eee;
+	background-color: #fff;
+}
+.safetycenter .safety-icon {
+	text-align: center;
+	margin-top: 30px;
+}
+.safetycenter .safety-icon i {
+	font-size: 25px;
+	color: #ec6826;
+}
+
+.safetycenter .safety-info {
+	padding-top: 32px;
+	padding-bottom: 28px;
+}
+.safetycenter .safety-info .title-main {
+	line-height: 20px;
+	padding-bottom: 5px;
+}
+.safetycenter .safety-info .title-main span {
+	padding-left: 10px;
+	color: #f86814;
+	font-weight: normal;
+}
+
+.safetycenter .safety-info .title-main span i {
+	padding-right: 5px;
+}
+.safetycenter .safety-info .title-sub {
+	line-height: 20px;
+}
+.safetycenter .safety-info .title-orange {
+	color: #f86814;
+} 
+.safetycenter .safety-btn {
+	margin-top: 30px;
+}
+
+
+
+.btn-safety-enterprise, a.btn-safety-enterprise, button.btn-safety-enterprise {
+	display: inline-block;
+	background-color: #4e69ab;
+    border: 1px solid #4e69ab;
+    color: #fff;
+}
+.btn-safety-enterprise:hover, a.btn-safety-enterprise:hover, button.btn-safety-enterprise:hover {
+	display: inline-block;
+	background-color: #2d4890;
+    border: 1px solid #2d4890;
+    color: #fff;
+}
+
+
+
+
+
+
+
+

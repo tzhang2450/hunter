@@ -1,0 +1,281 @@
+@import "header.css";
+@import "footer.css";
+
+
+main.main-content {
+	padding-left: 0px;
+}
+
+
+/*--main list style--*/
+.mb0 {
+	margin-bottom: 0;
+}
+.bb1 {
+	border-bottom: solid 1px #eee;
+}
+.list-title {
+	background-color: #f7f7f7;
+	height: 40px;
+}
+.font-list-title {
+	color: #999;
+	font-size: 13px;
+	line-height: 40px;
+}
+.title-sub {
+	color: #999;
+}
+.single-line {
+	color: #666;
+}
+.list-info {
+	line-height: 20px;
+}
+.chackbox {
+	padding-top: 6px;
+}
+.chackbox20-total {
+	margin-bottom: 0;
+}
+.chackbox20-total input {
+	width:20px;
+	height: 20px;
+	margin-left: 5px;
+}
+.chackbox20 input {
+	width:20px;
+	height: 20px;
+	margin-left: 5px;
+	margin-top: 12px; 
+}
+.list-body-l1 .chackbox20 input {
+	margin-top: 14px; 
+}
+.list-title input {
+	height: 30px;
+}
+.list-controls {
+	padding-top: 5px;
+}
+.list-controls .controls-all {
+	padding-top: 20px;
+}
+.pagination .active a {
+	background-color: #289bec;
+	border-color: #289bec;
+}
+.pagination li a {
+	color: #289bec;
+}
+.pagination li a, .pagination span {
+	font-size: 14px;
+}
+.check-wait {
+	color: #999;
+}
+.check-pass {
+	color: #5ec962;
+}
+.check-notpass {
+	color: #f04163;
+}
+.add-button {
+	padding: 20px 30px;
+}
+/*
+.list-body-l2 .title-main a {
+	color: #333;
+}
+.list-body-l2 .title-main a:hover {
+	color: #289bec;
+}
+*/
+@media screen and (max-width: 500px) {
+	.list-body-l2 .title-main {
+		padding-top: 15px;
+		line-height: 25px;
+	}
+	.list-body-l2 .title-sub {
+		padding-bottom: 0;
+	}
+	.list-body-l2 .single-line {
+		padding:5px 0 10px 0;
+	}
+	.list-body-l1 .title-main {
+		padding-top: 20px;
+		padding-bottom: 0px;
+	}
+	.list-body-l1 .single-line {
+		padding-top: 5px;
+		padding-bottom: 10px;
+	}
+	.list-controls nav {
+		text-align: center;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.list-body-box {
+		padding: 0 30px;
+	}
+	.list-body-l2 .title-main {
+		padding-top: 15px;
+		line-height: 25px;
+	}
+	.list-body-l2 .title-sub {
+		padding-top: 5px;
+		padding-bottom: 15px;
+	}
+	.list-body-l2 .single-line {
+		padding:30px 0;
+	}
+	.list-body-l1 .title-main {
+		padding-top: 20px;
+	}
+	.list-body-l1 .single-line {
+		padding:20px 0;
+	}
+	.list-controls nav {
+		text-align: right;
+	}
+}
+	.list-body-l2 .title-sub a {
+		padding: 0 5px;
+		font-weight: bold;
+	}
+
+
+
+
+
+
+/*-- form style --*/
+@media screen and (max-width: 500px) {
+	.form-horizontal {
+		padding-top: 5px;
+		padding-bottom: 5px;
+	}
+	.control-group .btn-save { 
+		text-align: center;
+	}
+	.appeal-group {
+		margin-bottom: 15px;
+		padding-bottom: 10px;
+		border-bottom: solid 1px #eee;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.form-horizontal {
+		padding-top: 25px;
+		padding-bottom: 50px;
+	}
+	.control-group .btn-save { 
+		text-align: left;
+	}
+}
+.control-group {
+	margin-bottom: 25px;
+}
+.control-group .info {
+	line-height: 25px;
+	font-size: 18px;
+	padding: 5px 0;
+}
+.control-group label {
+	font-size: 14px;
+	font-weight: normal;
+}
+.control-group label span {
+	color: red;
+	padding-right: 5px;
+	font-size: 18px;
+	vertical-align: text-top;
+}
+.control-group .control-label {
+	padding-right: 30px;
+}
+.control-group .controls {
+	display: inline-block;
+}
+.control-group .controls a {
+	color: #666;
+	background-color: #f8f8f8;
+	border-color: #ccc;
+	display: inline-block;
+}
+.control-group .controls a:hover {
+	color: #333;
+	background-color: #eee;
+}
+.control-group .controls i {
+	padding-right: 5px;
+    color: #5cb85c;
+}
+.control-group .controls .btn-default {
+	border-radius: 0px;
+}
+.control-group .radio-inline input {
+	margin-top: 0;
+	width: 20px;
+	height: 20px;
+}
+.control-group .checkbox-inline {
+	margin-right: 20px;
+	margin-left: 0px;
+	margin-bottom: 10px;
+}
+.control-group .checkbox-inline input {
+	margin-top: 0;
+	width: 20px;
+	height: 20px;
+}
+.control-group .controls input {
+	border-radius: 0px;
+}
+.control-group .btn-save { 
+	padding: 10px 40px;
+	margin-top: 5px;
+}
+.separate {
+	height: 20px;
+	margin-bottom: 40px;
+	border-bottom: solid 1px #eee;
+}
+.separate .text {
+	margin-top: 12px;
+	font-size: 13px; 
+	color: #bbb; 
+	text-shadow: 0 0 2em #fff, -0 -0 2em #fff;
+}
+
+
+
+
+
+
+
+
+
+.insidepage {
+	background-color: #fff;
+}
+.insidepage .warning {
+	margin: 20px 30px;
+	margin-top: 0px;
+	margin-bottom: 0;
+}
+.insidepage .warning .alert {
+    border-radius: 0px;
+	margin-bottom: 0;
+}
+.insidepage .warning i {
+	padding-right: 5px;
+}
+.insidepage .warning span {
+	font-size: 20px;
+	padding-right: 20px;
+}
+.insidepage .alert-danger, .insidepage .alert-warning {
+	padding: 8px 15px;
+}
+

@@ -1,0 +1,64 @@
+/*--header--*/
+.main-header {
+	background-color: #333;
+}
+.main-header .container {
+	height: 40px;
+	line-height: 40px;
+	color: #ccc;
+}
+.main-header .container span {
+	color: #ccc;
+}
+.main-navigation, aside.sidebar .content, .base-info, .hunt-manage, .view-resume, .recommend-resume {
+	background-color: #fff;
+}
+.main-navigation {
+	margin-bottom: 20px;
+}
+.main-navigation .container {
+}
+.navbar-header {
+	display: none;
+}
+.menu ul {
+
+}
+.menu li {
+	display: inline-block;
+    margin-right: 10px;
+    font-size: 25px;
+}
+.menu li a {
+	font-size: 25px;
+}
+.menu .logo {
+	height: 60px;
+}
+@media screen and (max-width: 500px) {
+	aside.sidebar {
+		padding: 0;
+	}
+	aside.sidebar h4 {
+		height: 60px;
+	    line-height: 60px;
+	}
+	.navbar-collapse {
+		padding: 0 20px;
+	}
+	.main-navigation .row {
+		margin: 10px 0;
+	}
+}
+@media screen and (min-width: 1000px) {
+	aside.sidebar {
+		padding-right: 20px;
+	}
+	aside.sidebar h4 {
+		height: 70px;
+	    line-height: 70px;
+	}
+	.main-navigation .row {
+		margin: 15px 0;
+	}
+}

@@ -1,0 +1,155 @@
+
+/*--main--*/
+.warning {
+	margin-top: 20px;
+}
+.warning .alert {
+	padding: 5px;
+	margin-bottom: 0;
+}
+.warning span {
+	font-size: 20px;
+	padding-right: 25px;
+}
+
+/* main > base info */
+@media screen and (max-width: 500px) {
+	.user-info .avatar {
+		text-align: center;
+		margin-bottom: 10px;
+	}
+	.user-info .info {
+		text-align: center;
+	}
+	.validate-operator {
+		text-align: center;
+	}
+	.user-info .validate-edit {
+		margin-bottom: 10px;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.user-info .avatar {
+		text-align: left;
+	}
+	.validate-operator {
+		text-align: right;
+	}
+}
+.base-info {
+}
+.user-info .avatar img {
+	width: 90px;
+    height: 90px;
+}
+.user-info .info div {
+	height: 30px;
+	line-height: 30px;
+}
+.user-info .info div span.validate {
+	color: #999;
+	font-size: 13px;
+}
+.user-info .info i {
+	color: #999;
+	margin-right: 5px;
+}
+.user-info .info .email-info {
+	font-size: 24px;
+	font-weight: bold;;
+}
+.user-info .validate-status {
+	padding-top: 5px;
+}
+.user-info .validate-edit {
+	padding-top: 5px;
+}
+.validate-operator .tip {
+	margin: 0;
+}
+.validate-operator .tip .alert-dismissible, .view-resume .right .tip .alert-dismissible {
+	padding: 5px;
+}
+
+/* main > 4 maindata */
+@media screen and (max-width: 500px) {
+	.view-button {
+		text-align: left;
+	}
+}
+@media screen and (min-width: 1000px) {
+	.view-button {
+		text-align: right;
+	}
+}
+.hunt-manage {
+}
+.hunt-manage .hunter-content {
+	margin-top: 40px;
+}
+.hunt-manage .num a {
+	font-size: 28px;
+	font-weight: normal;
+	padding: 10px;
+}
+
+
+/* main > jobs manage */
+.jobs-manage {
+	background-color: #fff;
+}
+.jobs-manage .table {
+	padding-bottom: 20px;
+}
+
+
+
+
+/* main > resume matching */
+@media screen and (max-width: 500px) {
+}
+@media screen and (min-width: 1000px) {
+}
+.resume-matching {
+	background-color: #fff;
+}
+.resume-body-box {
+	padding: 0 20px;
+	padding-bottom: 10px;
+	margin-top: -10px;
+}
+.resumebox {
+	height: 100px;
+	margin:10px;
+	border: solid 1px #eee;
+}
+.resumebox .avatar {
+    text-align: center;
+    margin-top: 18px;
+}
+.resumebox .avatar img {
+	width: 60px;
+    height: 60px;
+    border-radius: 30px;
+}
+.resumebox .name {
+	line-height: 30px;
+	padding-top: 10px;
+}
+.resumebox .name a {
+	color: #333;
+}
+.resumebox .name a:hover {
+	color: #289bec;
+}
+.resumebox .info {
+	line-height: 20px;
+	color: #888;
+}
+.resumebox .info i {
+	color: #289bec;
+}
+
+
+
+
